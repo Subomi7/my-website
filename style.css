@@ -1,0 +1,48 @@
+.header {
+  height: 50px;
+  background: rgba(35, 35, 141, 0.356);
+  color: aliceblue;
+  font-size: large;
+  font-display: Sans Serif;
+  font-weight: bolder;
+}
+
+.navbar {
+  height: 60vh;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: aliceblue;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'open Sans', sans-serif;
+  line-height: 3.5;
+  text-align: center;
+  color: black;
+}
+
+.ul-nav {
+  list-style-type: none;
+}
+
+.main-doc {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: 60px;
+  width: 65%;
+  margin: 20px;
+  height: 60vh;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  background-color: darkcyan;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
